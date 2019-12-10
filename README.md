@@ -1,2 +1,2 @@
-# Morning-Challenge
+# Daily-Challenge
 Morning Challenges
