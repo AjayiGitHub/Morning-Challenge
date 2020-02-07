@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <style>
+    body{
+  color:black;
+  font-weight:bold;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    background-color: white;
+    }
+  25%{
+    background-color:whitesmoke;
+    }
+  50%{
+    background-color:blanchedalmond;
+    }
+  75%{
+    background-color:#696969;
+    }
+  100% {background-color:black;
+  }
+
+}
+@media(min-width:200px){
+      .container{
+      text-align:center;
+    }
+
+    .img{
+      margin-top: 20px;
+      width: 200px;
+      height: 150px;
+      border: 2px solid rgb(159, 214, 58);
+      border-radius: 4px;
+      padding: 5px;
+    }
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h2>Thumbnail Image</h2>
+        <a target="_blank" href="dance.jpg"> 
+        <img src="dance.jpg" alt="Image" class="img">
+   </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
