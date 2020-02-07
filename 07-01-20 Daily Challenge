@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        background-color: rgb(140, 231, 87);
+      }
+      .title {
+        color: #DE3C1A;
+      }
+      .round-btn {
+        border-radius: 6px;
+        border: 1px solid #428FE5;
+        background-color: rgb(245, 248, 77)
+        
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Happy New Year</h1>
+    <button class="round-btn">Click Me</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
